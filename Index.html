@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+<body>
+    <div class="main">
+        <section class="calc">
+            <div class="buttons">
+                <div class="entry">
+                    <input type="integer" id="display" placeholder="Enter" readonly>
+                </div>
+                <div class="1st layer">
+                    <button onclick="clearDisplay()" class="sp-sym">AC</button> 
+                    <button onclick="appendtodisplay('&divide')" class="sp-sym">&divide;</button>
+                            
+                </div>
+                <div class="2layer">
+                    <button onclick="appendtodisplay('7')" class="num">7</button>
+                    <button onclick="appendtodisplay('8')" class="num">8</button>
+                    <button onclick="appendtodisplay('9')" class="num">9</button>
+                    <button onclick="appendtodisplay('*')" class="symbol">*</button> 
+                </div>
+                <div class="2layer">
+                    <button onclick="appendtodisplay('4')" class="num">4</button>
+                    <button onclick="appendtodisplay('5')" class="num">5</button>
+                    <button onclick="appendtodisplay('6')" class="num">6</button>
+                    <button onclick="appendtodisplay('-')" class="symbol">-</button> 
+                </div>
+                <div class="2layer">
+                    <button onclick="appendtodisplay('1')" class="num">1</button>
+                    <button onclick="appendtodisplay('2')" class="num">2</button>
+                    <button onclick="appendtodisplay('3')" class="num">3</button>
+                    <button onclick="appendtodisplay('+')" class="symbol">+</button> 
+                </div>
+                <div class="2layer">
+                    <button onclick="appendtodisplay('%')" class="symbol">%</button>
+                    <button onclick="appendtodisplay('0')" class="num">0</button>
+                    <button onclick="appendtodisplay('.')" class="num">.</button>
+                    <button onclick="calculate()" class="symbol">=</button> 
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>

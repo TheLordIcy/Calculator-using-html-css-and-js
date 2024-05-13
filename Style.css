@@ -1,0 +1,69 @@
+@font-face{
+    font-family: "Hilray";
+    src: url(Fonts/Oswald-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Hilray";
+    font-weight: bolder;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100vw;
+    background-image: linear-gradient(60deg,rgb(211, 70, 70),rgb(92, 195, 255));
+}
+
+.buttons{
+    text-align: center;
+}
+
+.calc{
+    background-color: rgba(255, 255, 255, 0.253);
+    border: 2px solid rgba(255, 255, 255, 0.932);
+    border-radius: 30px;
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgba(96, 170, 255, 0.541);
+}
+
+.main section div button{
+    border: 0px;
+    margin: 1px -1px;
+    border-radius: 20px;
+}
+
+.entry input{
+    height: 30px;
+    margin-bottom: 5px;
+    border: 0px;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    outline: none;
+}
+
+.symbol{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(184, 97, 255);
+}
+
+.num{
+    width: 50px;
+    height: 50px;
+}
+
+.sp-sym{
+    width: 104px;
+    height: 50px;
+    background-color: rgb(131, 184, 243);
+}
